@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Osmar Studio</title>
+    <meta name="author" content="Everton Alves" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="portfolioStyle.css" rel="stylesheet" type="text/css" />
+    <link href="http://lvh.me/src/mainStyle.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <script src="http://lvh.me/src/js/menuScript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://lvh.me/src/js/mudaHTMLScript.js"></script>
+
+    <div id="background">
+        <header>
+            <a href="http://lvh.me/src/main.html">
+                <img src="http://lvh.me/src/imagens/logo.jpg" alt="logo da empresa" class="logo" />
+            </a>
+        </header>
+    </div>
+
+    <div class="menu">
+        <div class="header">
+            <div onclick="abrirMenu()" class="clicavel" id="botaoMenu">
+                Menu
+            </div>
+
+            <div class="caixaPesquisar">
+                <form>
+                    <input type="text" id="barraPesquisa" name="pesquisa"
+                           placeholder="Pesquisar..." />
+                    <button type="button">
+                        <i class="fa fa-search"> </i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="menu" class="fechado">
+        <ul class='listaMenu'>
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/agendar/agendar.html" class='listaMenu'>
+                    Agendamento
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/portfolio/portfolio.html" class='listaMenu'>
+                    Portfólio
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/servicos/servicos.html" class='listaMenu'>
+                    Serviços
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/produtos/produtos.html" class='listaMenu'>
+                    Produtos
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/contato/contato.html" class='listaMenu'>
+                    Contato
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/sobreNos/sobreNos.html" class='listaMenu'>
+                    Sobre nós
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="margin" />
+
+    <h1>Portfólio</h1>
+
+    <table>
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/bebes/meninas.html">
+                    Acompanhamento Mês a Mês Meninas
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/bebes/meninos.html">
+                    Acompanhamento Mês a Mês Meninos
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/gestante.html">
+                    Gestante
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/bebes/meninas.html">
+                    <img class="img" src="http://lvh.me/src/imagens/bebeMeninas/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/bebes/meninos.html">
+                    <img class="img" src="http://lvh.me/src/imagens/bebeMeninos/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/gestante.html">
+                    <img class="img" src="http://lvh.me/src/imagens/gestante/image1.jpg" />
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/casamentos.html">
+                    Casamentos
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/preWedding.html">
+                    Pré-wedding
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/aniversarios.html">
+                    Aniversários
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/casamentos.html">
+                    <img class="img" src="http://lvh.me/src/imagens/casamento/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/preWedding.html">
+                    <img class="img" src="http://lvh.me/src/imagens/preWedding/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/aniversarios.html">
+                    <img class="img" src="http://lvh.me/src/imagens/aniversario/image1.jpg" />
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/batizados.html">
+                    Batizados e Crisma
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/formatura.html">
+                    Formatura
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/book.html">
+                    Book
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/batizados.html">
+                    <img class="img" src="http://lvh.me/src/imagens/batizados/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/formatura.html">
+                    <img class="img" src="http://lvh.me/src/imagens/formatura/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/book.html">
+                    <img class="img" src="http://lvh.me/src/imagens/book/image1.jpg" />
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/familia.html">
+                    Família
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/casal.html">
+                    Casal
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/feriados.html">
+                    Datas Comemorativas
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/familia.html">
+                    <img class="img" src="http://lvh.me/src/imagens/familia/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/casal.html">
+                    <img class="img" src="http://lvh.me/src/imagens/casal/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/feriados.html">
+                    <img class="img" src="http://lvh.me/src/imagens/feriados/image1.jpg" />
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/newborn.html">
+                    Newborn
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/gastronomia.html">
+                    Gastronomia
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/shows.html">
+                    Shows e Peças
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/newborn.html">
+                    <img class="img" src="http://lvh.me/src/imagens/newborn/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/gastronomia.html">
+                    <img class="img" src="http://lvh.me/src/imagens/gastronomia/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/shows.html">
+                    <img class="img" src="http://lvh.me/src/imagens/shows/image1.jpg" />
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/trashDress.html">
+                    Trash the Dress
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/smashCake.html">
+                    Smash the Cake
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/sensuais.html">
+                    Sensuais
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/trashDress.html">
+                    <img class="img" src="http://lvh.me/src/imagens/trashDress/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/smashCake.html">
+                    <img class="img" src="http://lvh.me/src/imagens/smashCake/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/sensuais.html">
+                    <img class="img" src="http://lvh.me/src/imagens/sensuais/image1.jpg" />
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/albuns.html">
+                    Albuns Diagramado
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="http://lvh.me/src/fotos/restauracao.html">
+                    Restauração de Foto
+                </a>
+            </th>
+
+            <th class="fotoTitulo">
+                <a href="">
+                </a>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/albuns.html">
+                    <img class="img" src="http://lvh.me/src/imagens/albuns/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="http://lvh.me/src/fotos/restauracao.html">
+                    <img class="img" src="http://lvh.me/src/imagens/restauracaoFoto/image1.jpg" />
+                </a>
+            </th>
+
+            <th class="foto">
+                <a href="">
+                </a>
+            </th>
+        </tr>
+    </table>
+    <footer>
+        <p class="textoFooter">@copyRight Estudio fotográfico Osmar Alves blablabla</p>
+    </footer>
+</body>
+</html>

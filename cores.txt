@@ -1,0 +1,7 @@
+dourado: #FAD31C
+laranja: #f28d3a
+azul: #75e0df
+verde: #05a32f
+vermelho: #e61920
+cinza: #787777
+

@@ -1,0 +1,84 @@
+.escolherFoto {
+    width: 25%;
+    height: 25%;
+}
+
+
+.escolhido{
+    opacity: 0.7;
+}
+
+.formMudarFoto{
+    color: white;
+}
+
+.escolherFoto {
+    border-style: solid;
+    border-color: white;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+.escolher {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.certo {
+    background-color: #05a32f;
+}
+
+.errado {
+    background-color: #e61920;
+}
+
+.tabelaAtividades{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#verAtividades{
+    width: 100%;
+}
+
+.tabelaTopo {
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    margin-right: 0;
+    font-size: 3vw;
+}
+
+.tabelaTopo:first-child {
+    border-left-style: solid;
+}
+
+.tabelaTopo:last-child {
+    border-right-style: solid;
+}
+
+.atividades {
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    margin-right: 0;
+    background-color: #FAD31C;
+    font-size: 3vw;
+}
+
+.atividades:first-child {
+    border-left-style: solid;
+}
+
+.atividades:last-child {
+    border-right-style: solid;
+}

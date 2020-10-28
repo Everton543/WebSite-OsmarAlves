@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Osmar Studio</title>
+	<meta name="author" content="Everton Alves" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="http://lvh.me/src/mainStyle.css" rel="stylesheet" type="text/css" />
+	<link href="http://lvh.me/src/portfolio/portfolioStyle.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="http://lvh.me/src/js/verFotoScript.js"></script>
+
+	<script src="http://lvh.me/src/js/menuScript.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="http://lvh.me/src/js/mudaHTMLScript.js"></script>
+
+	<div id="background">
+		<header>
+			<a href="http://lvh.me/src/main.html">
+				<img src="http://lvh.me/src/imagens/logo.jpg" alt="logo da empresa" class="logo" />
+			</a>
+		</header>
+	</div>
+
+	<div class="menu">
+		<div class="header">
+			<div onclick="abrirMenu()" class="clicavel" id="botaoMenu">
+				Menu
+			</div>
+
+			<div class="caixaPesquisar">
+				<form>
+					<input type="text" id="barraPesquisa" name="pesquisa"
+						   placeholder="Pesquisar..." />
+					<button type="button">
+						<i class="fa fa-search"> </i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="menu" class="fechado">
+		<ul class='listaMenu'>
+			<li class='listaMenu clicavel'>
+				<a href="http://lvh.me/src/agendar/agendar.html" class='listaMenu'>
+					Agendamento
+				</a>
+			</li>
+
+			<li class='listaMenu clicavel'>
+				<a href="http://lvh.me/src/portfolio/portfolio.html" class='listaMenu'>
+					Portfólio
+				</a>
+			</li>
+
+			<li class='listaMenu clicavel'>
+				<a href="http://lvh.me/src/servicos/servicos.html" class='listaMenu'>
+					Serviços
+				</a>
+			</li>
+
+			<li class='listaMenu clicavel'>
+				<a href="http://lvh.me/src/produtos/produtos.html" class='listaMenu'>
+					Produtos
+				</a>
+			</li>
+
+			<li class='listaMenu clicavel'>
+				<a href="http://lvh.me/src/contato/contato.html" class='listaMenu'>
+					Contato
+				</a>
+			</li>
+
+			<li class='listaMenu clicavel'>
+				<a href="http://lvh.me/src/sobreNos/sobreNos.html" class='listaMenu'>
+					Sobre nós
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="margin" />
+
+	<h1>Casamentos</h1>
+
+
+	<table>
+		<tr>
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image1.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image1.jpg', '1', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image2.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image2.jpg', '2', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image3.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image3.jpg', '3', '12')" />
+			</th>
+		</tr>
+
+		<tr>
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image4.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image4.jpg', '4', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image5.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image5.jpg', '5', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image6.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image6.jpg', '6', '12')" />
+			</th>
+		</tr>
+
+		<tr>
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image7.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image7.jpg', '7', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image8.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image8.jpg', '8', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image9.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image9.jpg', '9', '12')" />
+			</th>
+		</tr>
+
+		<tr>
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image10.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image10.jpg', '10', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image11.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image11.jpg', '11', '12')" />
+			</th>
+
+			<th class="foto">
+				<img class="img clicavel" src="http://lvh.me/src/imagens/casamento/image12.jpg"
+					 onclick="abrirCaixa('http://lvh.me/src/imagens/casamento/image12.jpg', '12', '12')" />
+			</th>
+		</tr>
+	</table>
+
+	<div id="idCaixa" class="caixa fechado">
+		<span class="close" onclick="esconder('idCaixa')">&times;</span>
+		<div class="caixaInterna" id="idCaixaInterna">
+			<img class="fotoCaixa" src="http://lvh.me/src/imagens/casamento/image1.jpg"
+				 id="idFoto" />
+		</div>
+
+		<a class="prev clicavel" onclick="voltarImagem()">&#10094;</a>
+		<a class="next clicavel" onclick="proximaImagem()">&#10095;</a>
+	</div>
+
+</body>
+</html>

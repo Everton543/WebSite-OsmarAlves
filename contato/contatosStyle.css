@@ -1,0 +1,38 @@
+ul {
+	list-style: none;
+	width: 40%;
+	overflow-x: visible;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.icone {
+	float: left;
+	object-fit: cover;
+	max-height: inherit;
+}
+
+li {
+	max-height: 1.5rem;
+	margin-bottom: 3rem;
+	white-space: nowrap;
+	overflow-x: visible;
+}
+
+h1{
+	text-align: center;
+	font-size: 2.3rem;
+	font-weight: 500;
+}
+
+p{
+	margin-left: 2.4rem;
+	font-size: 5vw;
+}
+
+@media screen and (min-width: 800px) {
+	p {
+		font-size: 1.3rem;
+	}
+}

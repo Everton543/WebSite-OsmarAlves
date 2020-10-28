@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Osmar Studio</title>
+    <meta name="author" content="Everton Alves" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://lvh.me/src/mainStyle.css" rel="stylesheet" type="text/css" />
+    <link href="http://lvh.me/src/sobreNos/sobreNosStyle.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body onload="aparecerTextoSobreNos()">
+    <script src="http://lvh.me/src/sobreNos/sobreNosScript.js"></script>
+    <script src="http://lvh.me/src/js/menuScript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://lvh.me/src/js/mudaHTMLScript.js"></script>
+
+    <div id="background">
+        <header>
+            <a href="http://lvh.me/src/main.html">
+                <img src="http://lvh.me/src/imagens/logo.jpg" alt="logo da empresa" class="logo" />
+            </a>
+        </header>
+    </div>
+
+    <div class="menu">
+        <div class="header">
+            <div onclick="abrirMenu()" class="clicavel" id="botaoMenu">
+                Menu
+            </div>
+
+            <div class="caixaPesquisar">
+                <form>
+                    <input type="text" id="barraPesquisa" name="pesquisa"
+                           placeholder="Pesquisar..." />
+                    <button type="button">
+                        <i class="fa fa-search"> </i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="menu" class="fechado">
+        <ul class='listaMenu'>
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/agendar/agendar.html" class='listaMenu'>
+                    Agendamento
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/portfolio/portfolio.html" class='listaMenu'>
+                    Portfólio
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/servicos/servicos.html" class='listaMenu'>
+                    Serviços
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/produtos/produtos.html" class='listaMenu'>
+                    Produtos
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/contato/contato.html" class='listaMenu'>
+                    Contato
+                </a>
+            </li>
+
+            <li class='listaMenu clicavel'>
+                <a href="http://lvh.me/src/sobreNos/sobreNos.html" class='listaMenu'>
+                    Sobre nós
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="margin" />
+    <h1>Sobre Nós</h1>
+    <p id="sobreNosTexto"></p>
+</body>
+</html>
